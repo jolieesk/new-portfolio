@@ -1,0 +1,193 @@
+.wrap {
+	 perspective-origin: 50% 50%;
+}
+ .page {
+	 margin: 3%;
+	 max-width: 600px;
+	 margin-left: auto;
+	 margin-right: auto;
+	 padding: 30px;
+	 border-radius: 3px;
+	 text-align: center;
+	 font-size: 1.4vw;
+}
+ .page h2 {
+	 font-weight: bold;
+	 font-size: 6.5vw;
+	 font-weight: 900;
+	 font-style: italic;
+	 color: #dad8ec;
+}
+ .svg {
+	 stroke: #7ceaa4;
+	 position: absolute;
+	 bottom: -100vh;
+	 transform-style: preserve-3d;
+}
+ .svg:nth-child(1) {
+	 left: 39%;
+	 animation: raise1 17s linear infinite;
+	 animation-delay: 0s;
+	 transform: scale(-0.3) rotate(202deg);
+	 z-index: -6;
+	 filter: blur(-5px);
+}
+ @keyframes raise1 {
+	 to {
+		 bottom: 150vh;
+		 transform: scale(-0.3) rotate(15deg);
+	}
+}
+ .svg:nth-child(2) {
+	 left: 67%;
+	 animation: raise2 15s linear infinite;
+	 animation-delay: -2s;
+	 transform: scale(0) rotate(328deg);
+	 z-index: -5;
+	 filter: blur(-4px);
+}
+ @keyframes raise2 {
+	 to {
+		 bottom: 150vh;
+		 transform: scale(0) rotate(309deg);
+	}
+}
+ .svg:nth-child(3) {
+	 left: 93%;
+	 animation: raise3 9s linear infinite;
+	 animation-delay: -2s;
+	 transform: scale(0.3) rotate(192deg);
+	 z-index: -4;
+	 filter: blur(-3px);
+}
+ @keyframes raise3 {
+	 to {
+		 bottom: 150vh;
+		 transform: scale(0.3) rotate(150deg);
+	}
+}
+ .svg:nth-child(4) {
+	 left: 59%;
+	 animation: raise4 21s linear infinite;
+	 animation-delay: 0s;
+	 transform: scale(0.6) rotate(77deg);
+	 z-index: -3;
+	 filter: blur(-2px);
+}
+ @keyframes raise4 {
+	 to {
+		 bottom: 150vh;
+		 transform: scale(0.6) rotate(193deg);
+	}
+}
+ .svg:nth-child(5) {
+	 left: -9%;
+	 animation: raise5 7s linear infinite;
+	 animation-delay: -4s;
+	 transform: scale(0.9) rotate(189deg);
+	 z-index: -2;
+	 filter: blur(-1px);
+}
+ @keyframes raise5 {
+	 to {
+		 bottom: 150vh;
+		 transform: scale(0.9) rotate(249deg);
+	}
+}
+ .svg:nth-child(6) {
+	 left: 28%;
+	 animation: raise6 11s linear infinite;
+	 animation-delay: -3s;
+	 transform: scale(1.2) rotate(119deg);
+	 z-index: -1;
+	 filter: blur(0px);
+}
+ @keyframes raise6 {
+	 to {
+		 bottom: 150vh;
+		 transform: scale(1.2) rotate(100deg);
+	}
+}
+ .svg:nth-child(7) {
+	 left: 59%;
+	 animation: raise7 14s linear infinite;
+	 animation-delay: -4s;
+	 transform: scale(1.5) rotate(213deg);
+	 z-index: 0;
+	 filter: blur(1px);
+}
+ @keyframes raise7 {
+	 to {
+		 bottom: 150vh;
+		 transform: scale(1.5) rotate(32deg);
+	}
+}
+ .svg:nth-child(8) {
+	 left: -8%;
+	 animation: raise8 13s linear infinite;
+	 animation-delay: -3s;
+	 transform: scale(1.8) rotate(167deg);
+	 z-index: 1;
+	 filter: blur(2px);
+}
+ @keyframes raise8 {
+	 to {
+		 bottom: 150vh;
+		 transform: scale(1.8) rotate(46deg);
+	}
+}
+ .svg:nth-child(9) {
+	 left: 75%;
+	 animation: raise9 12s linear infinite;
+	 animation-delay: -4s;
+	 transform: scale(2.1) rotate(350deg);
+	 z-index: 2;
+	 filter: blur(3px);
+}
+ @keyframes raise9 {
+	 to {
+		 bottom: 150vh;
+		 transform: scale(2.1) rotate(171deg);
+	}
+}
+ .svg:nth-child(10) {
+	 left: 65%;
+	 animation: raise10 7s linear infinite;
+	 animation-delay: -4s;
+	 transform: scale(2.4) rotate(249deg);
+	 z-index: 3;
+	 filter: blur(4px);
+}
+ @keyframes raise10 {
+	 to {
+		 bottom: 150vh;
+		 transform: scale(2.4) rotate(235deg);
+	}
+}
+ 
+body{
+   background-image: linear-gradient(to right, white , gray);
+}
+
+.image-container {
+ background-image: url("img_nature.jpg");
+ background-size: cover;
+ position: relative;
+ height: 300px;
+}
+
+.text {
+ background-color: white;
+ color: black;
+ font-size: 5vw;
+ font-weight: bold;
+ margin: 0 auto;
+ padding: 10px;
+ width: 50%;
+ text-align: center;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ mix-blend-mode: screen;
+}
