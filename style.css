@@ -206,5 +206,85 @@ h2 {
 .btn-outline-primary {
     color: black;
     border-color: black;
-    background-color: #C0C0C0;
+    background-color: white;
+
+}
+
+.btn-outline-primary {
+    color: black;
+    border-color: black;
+}
+
+
+li {
+  color: black;
+}
+
+
+nav {
+  padding: 10px 0;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-link {
+  color: white;
+}
+nav li {
+  display: inline-block;
+  margin-left: 75px;
+  padding-top: 10px;
+
+  position: relative;
+}
+
+nav a {
+  color: white !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.navbar-nav a:hover{
+  color: gray !important;
+}
+
+nav a:hover{
+  color: red;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+.navbar-brand {
+  margin-left: 60px;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+a.navbar-brand {
+  background-image: url("https://i.imgur.com/5dsehpI.png");
+}
+nav a:hover::before {
+  width: 100%;
+}
+
+.b{
+  text-align: center;
 }
